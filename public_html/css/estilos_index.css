@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-dic-2020, 12:06:13
+    Author     : user
+*/
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    /*text-align: center;*/
+    background-image: url("https://fondosmil.com/fondo/20690.jpg");
+    /*("C:\Users\Manuel\Documents\NetBeansProjects\0012_Db_Bank_html\public_html\img\Fondo.jpg")*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;	
+}
+
+.agrupar {
+    background-image: url("https://image.freepik.com/vector-gratis/edificio-banco-retro-dibujos-animados-o-palacio-justicia-ilustracion-columnas-aislado-blanco_53562-8133.jpg");
+    /*("C:\Users\Manuel\Documents\NetBeansProjects\0012_Db_Bank_html\public_html\img\Fondo.jpg")*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.color {
+    background-color: white;
+}
+
+#cabecera {
+    background: #10101a;
+    border: 1px solid #999999;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu {
+    padding-top: 15px;
+}
+
+#seccion {
+    float: left;
+/*    width: 20px;*/
+    width: 350px;
+    margin: 20px;
+}
+
+#seccionBlock {
+/*    width: 20px;*/
+    padding-top: 20px;
+    width: 350px;
+    margin: 0px 370px;
+}
+
+#columna {
+    float: right;
+    width: 200px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    /*border-bottom: 2px solid #999999;*/
+    border-top: 1px solid #999999;
+    background: #10101a;
+}
+
+article {
+    background: #10101a;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+table {
+    display: inline;
+}
+
+th {
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+td {
+    padding-right: 1px;
+    padding-top: 5px;
+}
+
+#tabla {
+    margin-top: 5px;
+}

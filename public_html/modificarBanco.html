@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Modificando un banco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos_index.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>        
+    </head>
+    <body>
+        <div class="container p-3 my-3 border agrupar">
+            <header class="text-white" id="cabecera">
+                <h1>Modificando un banco</h1> 
+            </header> 
+            <nav id="menu"> 
+                <ul class="nav justify-content-center"> 
+                    <li class="nav-item"><a class="nav-link btn btn-outline-secondary" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn btn-outline-secondary" href="cliente.html">Cliente</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn btn-outline-secondary" href="cuentaBancaria.html">Cuenta Bancaria</a></li>
+                </ul> 
+            </nav>
+            <section id="seccionBlock">
+                <article class="text-white"> 
+                    <h4 class="text-center">Datos del banco</h4>
+                    <hr class="color">
+                    <form>
+                        <div class="form-group">
+                            <label for="fbanco">Nombre del banco</label><br>
+                            <input type="text" class="form-control" id ="fbanco" name="fbanco" placeholder="Ejemplo: BancoAAA" />                            
+                        </div>
+                        <div class="align-items-center container-fluid">
+                            <input type="submit" class="btn btn-primary" value="Enviar" />
+                        </div>
+                    </form>
+                </article>
+            </section>   
+            <footer class="text-white" id="pie"> Derechos Reservados &copy; 2020-9999 </footer>
+        </div>
+    </body>
+</html>
